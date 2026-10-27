@@ -8,7 +8,7 @@ Copy of the live site, taken 25 Oct 2026 from GoHighLevel AI Studio so it can be
 - `_redirects` – tells Netlify to serve the pages (/about, /gallery, /project/...) correctly.
 
 ## Deploy
-Drag the `site` folder onto Netlify (app.netlify.com → Add new site → Deploy manually), then point the drewbutler.co.uk DNS at it.
+Connected to Netlify from GitHub (site name drewbutler07). `netlify.toml` tells Netlify to publish the `site` folder; every push to `main` redeploys automatically.
 
 ## Contact form
 Uses Netlify Forms (free up to 100 submissions/month). After the first deploy:

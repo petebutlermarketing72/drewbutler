@@ -1,0 +1,3 @@
+# The website files live in the site/ folder, not the repo root
+[build]
+  publish = "site"
