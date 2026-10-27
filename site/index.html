@@ -37,11 +37,20 @@
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
-    <script type="module" crossorigin src="/assets/index-BFp1ATZO.js"></script>
+    <script type="module" crossorigin src="/assets/index-netlify-form.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CLce0-7k.css">
   </head>
 
   <body>
     <div id="root"></div>
+    <!-- Hidden copy of the contact form so Netlify Forms can detect it at deploy time -->
+    <form name="contact" data-netlify="true" hidden>
+      <input type="text" name="firstName" />
+      <input type="text" name="lastName" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="reference" />
+      <textarea name="message"></textarea>
+    </form>
   </body>
 </html>
